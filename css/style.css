@@ -75,6 +75,9 @@ body {overflow: hidden;font-family: 'GilroyLight';}
     .video_player iframe {
         height: 66vh;
     }
+    .videosection {
+        height: 60vh;
+    }
 }
 @media screen and (max-width: 1100px) {
     .video_player iframe {
@@ -107,6 +110,10 @@ body {overflow: hidden;font-family: 'GilroyLight';}
     .video_player iframe {
         height: 38vh;
         border-radius: 0;
+    }
+    .main_video {
+        position: sticky;
+        top: 0;
     }
 }
 
